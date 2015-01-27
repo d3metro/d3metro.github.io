@@ -294,6 +294,7 @@ svg {
 /* line 134, ../../src/scss/modules/_metro.scss */
 .metro-map-detail {
   transform: scale(0, 0);
+  webkit-transform: scale(0, 0);
   transition: all .5s ease-in-out;
   position: relative;
   width: 50%;
@@ -307,32 +308,32 @@ svg {
   border-color: #aaaaaa;
   border-radius: 3px;
 }
-/* line 153, ../../src/scss/modules/_metro.scss */
+/* line 154, ../../src/scss/modules/_metro.scss */
 .metro-map-detail section {
   overflow-y: scroll;
   height: 100%;
 }
-/* line 157, ../../src/scss/modules/_metro.scss */
+/* line 158, ../../src/scss/modules/_metro.scss */
 .metro-map-detail p {
   margin-top: 0;
   padding-left: 2%;
   padding-right: 2%;
 }
-/* line 163, ../../src/scss/modules/_metro.scss */
+/* line 164, ../../src/scss/modules/_metro.scss */
 .metro-map-detail h4 {
   margin-bottom: 0;
   padding-left: 2%;
 }
-/* line 167, ../../src/scss/modules/_metro.scss */
+/* line 168, ../../src/scss/modules/_metro.scss */
 .metro-map-detail h4:not(:first-child) {
   margin-top: 0;
 }
-/* line 172, ../../src/scss/modules/_metro.scss */
+/* line 173, ../../src/scss/modules/_metro.scss */
 .metro-map-detail header .close {
   padding: 1%;
   float: right;
 }
-/* line 178, ../../src/scss/modules/_metro.scss */
+/* line 179, ../../src/scss/modules/_metro.scss */
 .metro-map-detail footer {
   position: absolute;
   background-color: white;
@@ -340,19 +341,20 @@ svg {
   left: 0;
   width: 100%;
 }
-/* line 185, ../../src/scss/modules/_metro.scss */
+/* line 186, ../../src/scss/modules/_metro.scss */
 .metro-map-detail footer span {
   padding: 2%;
 }
-/* line 188, ../../src/scss/modules/_metro.scss */
+/* line 189, ../../src/scss/modules/_metro.scss */
 .metro-map-detail footer span:first-child {
   float: left;
 }
-/* line 191, ../../src/scss/modules/_metro.scss */
+/* line 192, ../../src/scss/modules/_metro.scss */
 .metro-map-detail footer span:last-child {
   float: right;
 }
-/* line 196, ../../src/scss/modules/_metro.scss */
+/* line 197, ../../src/scss/modules/_metro.scss */
 .metro-map-detail.active {
   transform: scale(1, 1);
+  webkit-transform: scale(1, 1);
 }
